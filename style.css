@@ -79,12 +79,12 @@
     border-image-slice: 1;
 }
 .populer-collection{
-    padding: 100px 10vw;
+    padding: 20px 10vw 100px 10vw;
 }
 .populer-collection h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .img-grp{
@@ -96,6 +96,10 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+.cart:hover{
+    transform: scale(1.05);
 }
 .cart img{
     width: 100%;
