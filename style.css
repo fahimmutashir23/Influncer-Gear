@@ -167,6 +167,9 @@
 footer{
     background-color: #0A0826;
     color: white;
+    padding: 50px 10vw;
+}
+.footer-content{
     text-align: center;
     padding: 50px 10vw;
 }
@@ -211,3 +214,10 @@ footer{
     }
 
 } 
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .img-grp{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
